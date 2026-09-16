@@ -11,24 +11,6 @@ generado con [archify](https://github.com/tt-a1i/archify) a partir del esquema r
   - Play Story con 5 capítulos (el story recorre el `focus` de cada capítulo)
   - Pan/zoom, temas claro/oscuro, export PNG/SVG/WebM, buscador
 
-## Despliegue en Vercel
-
-Es un sitio estático de un solo archivo: cualquier método de Vercel funciona.
-
-### Opción A — desde GitHub (recomendado)
-
-1. Empuja este repo a GitHub (ya está: `iamisma326-cpu/er-istargentina`).
-2. En [vercel.com/new](https://vercel.com/new), importa el repo.
-3. Framework preset: **Other** (no requiere build). Output directory: `./`
-4. Deploy.
-
-### Opción B — desde CLI
-
-```bash
-npm i -g vercel
-vercel --prod
-```
-
 ## Regeneración
 
 El diagrama se regenera desde la BD con el script del repo origen:
